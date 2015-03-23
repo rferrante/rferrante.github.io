@@ -3,15 +3,20 @@
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <meta property="og:title" content=" Robert Ferrante" />
+  <meta property="og:title" content=" About Me &middot;  Robert Ferrante" />
   <meta property="og:site_name" content="Robert Ferrante" />
-  <meta property="og:url" content="http://localhost:1313/" />
+  <meta property="og:url" content="http://localhost:1313/about/" />
   
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="article" />
+  
+  <meta property="og:article:published_time" content="2015-03-22T13:47:34-07:00" />
+  
+  <meta property="og:article:tag" content="software development" />
+  
   
 
   <title>
-     Robert Ferrante
+     About Me &middot;  Robert Ferrante
   </title>
 
   <link rel="stylesheet" href="http://localhost:1313/css/bootstrap.min.css" />
@@ -21,7 +26,7 @@
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" type="text/css">
   <link rel="shortcut icon" href="http://localhost:1313/images/favicon.ico" />
   <link rel="apple-touch-icon" href="http://localhost:1313/images/apple-touch-icon.png" />
-  <link href="http://localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="Robert Ferrante" />
+  <link href="" rel="alternate" type="application/rss+xml" title="Robert Ferrante" />
 </head>
 <body>
   <header class="global-header">
@@ -48,50 +53,20 @@
 </div>
 
       
-      
-      <a href="http://localhost:1313/index.xml" class="btn-header btn-subscribe hidden-xs">
-        <i class="fa fa-rss"></i>
-        &nbsp;Subscribe
+      <a href="http://localhost:1313/" class="btn-header btn-back hidden-xs">
+        <i class="fa fa-angle-left"></i>
+        &nbsp;Home
       </a>
+      
       
     </section>
   </header>
   <main class="container">
 
-<div class="article-list">
-  
-  
-  <article>
-  <header>
-    <h2><a href="http://localhost:1313/post/first/">The cons Package</a></h2>
-    <div class="post-meta clearfix">
-      <div class="post-date pull-left">
-        Posted on
-        <time datetime="2015-03-22T13:50:51-07:00">
-          Mar 22, 2015
-        </time>
-      </div>
-    </div>
-  </header>
-  <div>
-    I&rsquo;ve shared the repo for my cons package. It&rsquo;s written in Go and is aimed at helping create console programs in Go, of the type that loop and interpret your commands until you exit. The cons package also includes some color support to make it a bit easier to use colors in your text output and/or your prompt. The package has no external dependencies, that is, outside of the Go standard package library.
-  </div>
-  
-  <footer>
-    <ul class="pager">
-      <li class="next"><a href="http://localhost:1313/post/first/">Read more &raquo;</a></li>
-    </ul>
-  </footer>
-  
-</article>
 
-  
-  
-  <hr/>
-  
-  <article>
+<article>
   <header>
-    <h2><a href="http://localhost:1313/about/">About Me</a></h2>
+    <h1 class="text-primary">About Me</h1>
     <div class="post-meta clearfix">
       <div class="post-date pull-left">
         Posted on
@@ -99,16 +74,51 @@
           Mar 22, 2015
         </time>
       </div>
+      <div class="pull-right">
+        
+        <span class="post-tag small"><a href="http://localhost:1313//tags/software-development">#software development</a></span>
+        
+      </div>
     </div>
   </header>
-  <div>
-    I&rsquo;m Robert Ferrante (rferrante). I am a software engineer. I think I&rsquo;m of the old school; I consider it a profession, a craft, and a discipline. I am currently learning Go, and I&rsquo;m sharing some software on Github. I started out working in C, moving into Objective-C, VB, Java, then C# for a while, followed by Python. There is something to be said for them all, but Go feels like home now.
-  </div>
-  
+  <section>
+    <p>I&rsquo;m Robert Ferrante (rferrante). I am a software engineer. I think I&rsquo;m of the old school; I consider it a profession, a craft, and a discipline. I am currently learning Go, and I&rsquo;m sharing some software on Github. I started out working in C, moving into Objective-C, VB, Java, then C# for a while, followed by Python. There is something to be said for them all, but Go feels like home now.</p>
+
+  </section>
+  <footer>
+    <section class="author-info row">
+      <div class="author-avatar col-md-2">
+        
+      </div>
+      <div class="author-meta col-md-6">
+        
+        <h1 class="author-name text-primary">Robert Ferrante</h1>
+        
+        
+        <div class="author-bio">Software developer.</div>
+        
+      </div>
+      
+      <div class="author-contact col-md-4">
+        <a href="mailto:rsferrante@gmail.com">
+          <i class="fa fa-envelope-o"></i>
+          &nbsp;Contact me
+        </a>
+      </div>
+      
+    </section>
+    <ul class="pager">
+      
+      <li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span> Older</a></li>
+      
+      
+      <li class="next"><a href="http://localhost:1313/post/first/">Newer <span aria-hidden="true">&rarr;</span></a></li>
+      
+    </ul>
+    
+  </footer>
 </article>
 
-  
-</div>
   </main>
   <footer class="container global-footer">
     <div class="copyright-note pull-left">
@@ -139,5 +149,4 @@
   
 </body>
 </html>
-
 

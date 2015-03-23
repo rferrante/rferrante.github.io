@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cons on Robert Ferrante</title>
+    <link>http://localhost:1313/tags/cons/</link>
+    <description>Recent content in Cons on Robert Ferrante</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright 2015 by Robert Ferrante</copyright>
+    <lastBuildDate>Sun, 22 Mar 2015 13:50:51 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cons/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The cons Package</title>
+      <link>http://localhost:1313/post/first/</link>
+      <pubDate>Sun, 22 Mar 2015 13:50:51 -0700</pubDate>
+      
+      <guid>http://localhost:1313/post/first/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve shared the repo for my &lt;strong&gt;cons&lt;/strong&gt; package. It&amp;rsquo;s written in Go and is aimed at helping create console programs in Go, of the type that loop and interpret your commands until you exit. The &lt;em&gt;cons&lt;/em&gt; package also includes some color support to make it a bit easier to use colors in your text output and/or your prompt.&lt;/p&gt;
+
+&lt;p&gt;The package has no external dependencies, that is, outside of the Go standard package library. So it&amp;rsquo;s easy to go get and start using in your program. There are a lot of packages around that do the same thing, and I&amp;rsquo;m not about to think mine is better than anyone else&amp;rsquo;s. I do use it myself though, and to me it seems just about right. If I like using it, maybe someone else will to.&lt;/p&gt;
+
+&lt;p&gt;You can find out more about it at (&lt;a href=&#34;https://github.com/rferrante/cons&#34;&gt;https://github.com/rferrante/cons&lt;/a&gt;)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
